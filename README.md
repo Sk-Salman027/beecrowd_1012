@@ -17,12 +17,14 @@ double A, B, C, areaOfTriangle, areaOfCircle, areaOfTrapezium, areaOfSquare, are
 scanf("%lf %lf %lf", &A, &B, &C);
 ```
 ### Calculate Area:
-`   areaOfTriangle = (A * C) / 2;<br>
-    areaOfCircle = pi * pow(C, 2);<br>
-    areaOfTrapezium = (A + B) * C / 2;<br>
-    areaOfSquare = B * B;<br>
-    areaOfRectangle = A * B;<br>
-`
+
+``` c
+areaOfTriangle = (A * C) / 2;
+areaOfCircle = pi * pow(C, 2);
+areaOfTrapezium = (A + B) * C / 2;
+areaOfSquare = B * B;
+areaOfRectangle = A * B;
+```
 
 ### Output
 ```c
